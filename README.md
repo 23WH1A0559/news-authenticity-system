@@ -2,8 +2,8 @@
 📘 SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
 News Authenticity Detection System (Semi-Supervised Learning Based)
 ________________________________________
-1. Introduction
-1.1 Purpose
+# 1. Introduction
+# 1.1 Purpose
 The purpose of this document is to describe the functional and non-functional requirements of the News Authenticity Detection System.
 This system detects whether a news article is Real or Fake using a Semi-Supervised Machine Learning approach and provides analytical insights about news trends, prediction confidence, and model behavior.
 Unlike traditional supervised systems, this application improves over time by learning from unlabeled real-world news data.
@@ -12,7 +12,7 @@ This document is intended for:
 •	Developers and testers
 •	End users
 ________________________________________
-1.2 Scope
+# 1.2 Scope
 The News Authenticity Detection System is a web-based application that:
 •	Accepts news text as input
 •	Predicts authenticity (Real/Fake)
@@ -27,7 +27,7 @@ The system combines:
 The application is designed for educational, research, and real-world experimentation purposes.
 
 ________________________________________
-1.3 Definitions, Acronyms, Abbreviations
+# 1.3 Definitions, Acronyms, Abbreviations
 •	ML – Machine Learning
 •	NLP – Natural Language Processing
 •	SSL – Semi-Supervised Learning
@@ -36,13 +36,13 @@ ________________________________________
 •	TF-IDF – Term Frequency–Inverse Document Frequency
 •	API – Application Programming Interface
 ________________________________________
-1.4 References
+# 1.4 References
 •	Kaggle Fake News Dataset
 •	Scikit-learn Documentation
 •	Pandas Documentation
 •	FastAPI Documentation
 ________________________________________
-2. Overall Description
+# 2. Overall Description
 2.1 Product Perspective
 The system follows a modular architecture:
 Dataset
@@ -55,7 +55,7 @@ Dataset
 → Continuous Learning Module
 The system is designed to simulate a real-world intelligent verification platform.
 ________________________________________
-2.2 Product Functions
+# 2.2 Product Functions
 The system performs the following functions:
 •	Accept news article text input
 •	Preprocess text using NLP techniques
@@ -66,13 +66,13 @@ The system performs the following functions:
 •	Provide visual data analytics dashboards
 •	Allow admin monitoring of system performance
 ________________________________________
-2.3 User Classes and Characteristics
+# 2.3 User Classes and Characteristics
 User Type	Description
 End User	Inputs news and views prediction results
 Admin	Monitors analytics and system performance
 Evaluator	Reviews system functionality
 ________________________________________
-2.4 Operating Environment
+# 2.4 Operating Environment
 •	Operating System: Windows / Linux
 •	Backend: Python
 •	ML Libraries: Scikit-learn, NumPy, Pandas
@@ -80,15 +80,15 @@ ________________________________________
 •	Backend Framework: FastAPI or Flask
 •	Database: MongoDB / SQLite
 ________________________________________
-2.5 Design and Implementation Constraints
+# 2.5 Design and Implementation Constraints
 •	Availability of quality dataset
 •	Model performance depends on data distribution
 •	Requires periodic retraining
 •	Internet required for optional API integration
 ________________________________________
-3. System Features (Functional Requirements)
+# 3. System Features (Functional Requirements)
 ________________________________________
-3.1 News Authenticity Prediction
+# 3.1 News Authenticity Prediction
 Description:
 Users enter a news article and receive a prediction.
 Inputs:
@@ -98,7 +98,7 @@ Outputs:
 •	Confidence score
 •	Timestamp
 ________________________________________
-3.2 Text Preprocessing Module
+# 3.2 Text Preprocessing Module
 The system performs:
 •	Lowercasing
 •	Stopword removal
@@ -108,7 +108,7 @@ The system performs:
 Purpose:
 Converts raw text into machine-readable format.
 ________________________________________
-3.3 Semi-Supervised Learning Module (Core Feature)
+# 3.3 Semi-Supervised Learning Module (Core Feature)
 Description:
 The system uses a Semi-Supervised Learning approach instead of traditional supervised learning.
 Algorithm Used:
@@ -125,7 +125,7 @@ Benefits:
 •	Reduces manual labeling effort
 •	More realistic real-world behavior
 ________________________________________
-3.4 Continuous Learning Module (Unique Feature)
+# 3.4 Continuous Learning Module (Unique Feature)
 Description:
 The system continuously improves by:
 •	Storing user-submitted news
@@ -134,7 +134,7 @@ The system continuously improves by:
 •	Periodically retraining the model
 This simulates “learning from experience.”
 ________________________________________
-3.5 Data Analytics Module
+# 3.5 Data Analytics Module
 Description:
 Provides analytical insights derived from dataset and user predictions.
 Analytics Features:
@@ -150,7 +150,7 @@ Purpose:
 •	Helps understand dataset bias
 •	Enhances decision-support capability
 ________________________________________
-3.6 Dashboard Visualization
+# 3.6 Dashboard Visualization
 Interactive charts include:
 •	Bar charts
 •	Pie charts
@@ -158,22 +158,22 @@ Interactive charts include:
 •	Confusion matrix
 Used for visual interpretation of system behavior.
 ________________________________________
-4. External Interface Requirements
+# 4. External Interface Requirements
 ________________________________________
-4.1 User Interface
+# 4.1 User Interface
 •	Text input area
 •	Submit button
 •	Prediction result display
 •	Confidence score display
 •	Analytics dashboard page
 ________________________________________
-4.2 Software Interfaces
+# 4.2 Software Interfaces
 •	Model stored as .pkl file
 •	Backend API for prediction
 •	Database for storing logs
 •	Optional integration with fact-check APIs
 ________________________________________
-5. Non-Functional Requirements
+# 5. Non-Functional Requirements
 ________________________________________
 5.1 Performance Requirements
 •	Prediction response time < 3 seconds
@@ -198,7 +198,7 @@ ________________________________________
 •	Can expand dataset
 •	Can integrate real-time news APIs
 ________________________________________
-6. System Architecture
+# 6. System Architecture
 High-Level Architecture:
 User Interface
 ↓
@@ -212,14 +212,14 @@ Database
 ↓
 Continuous Learning Module
 ________________________________________
-7. Future Enhancements
+# 7. Future Enhancements
 •	Integration with live news APIs
 •	Deep learning models such as BERT
 •	Multilingual fake news detection
 •	Real-time streaming analysis
 •	Hybrid ML + fact-check API verification
 ________________________________________
-8. Conclusion
+# 8. Conclusion
 The News Authenticity Detection System combines Semi-Supervised Learning and Data Analytics to provide adaptive and intelligent news verification.
 Unlike traditional supervised systems, this application improves over time by learning from unlabeled news articles, making it closer to real-world intelligent AI systems.
 The inclusion of analytics enhances transparency, interpretability, and decision-making capability, making the system suitable for both academic and practical applications.
