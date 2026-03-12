@@ -1,0 +1,28 @@
+text,prediction,confidence,timestamp,true_label
+India offers condolences over Khamenei's killing; Foreign Secretary Vikram Misri visits Iran Embassy,Fake,0.595390503510451,2026-03-05 22:05:27.430316,1
+US President Trump warned Iran will be hit very hard following joint US-Israel strikes that killed Iran's Supreme Leader.,Real,0.6547739581765892,2026-03-07 22:31:19.455480,1
+" Following the strike on its leadership, Iran issued a rare apology to Gulf states, promising to halt attacks unless they originate from that region.",Fake,0.5668030223167311,2026-03-07 22:33:33.992148,1
+Iranian Revolutionary Guard Corps (IRGC) continue to target US bases and GCC countries in retaliation.,Fake,0.8098307472840744,2026-03-07 22:34:33.112224,1
+" Rapper Balen Shah’s party wins big in Nepal, defeating established leaders like KP Sharma Oli and shifting the political landscape towards a new generation.",Fake,0.8057562558503433,2026-03-07 22:35:29.605658,1
+" India allowed an Iranian ship, IRIS Lavan, to dock in Kochi for repairs just before another Iranian ship was sunk by the US.",Fake,0.9220140424078876,2026-03-07 22:36:38.192744,1
+" Bihar CM Nitish Kumar is quitting as Chief Minister to move to the Rajya Sabha, seen as a BJP move to change leadership in Bihar.",Real,0.7702056466924667,2026-03-07 22:38:01.851918,1
+ The Karnataka government proposed a ban on social media for children under 16. ,Real,0.555531571719574,2026-03-07 22:39:00.299137,1
+"India will face New Zealand in the final at the Narendra Modi Stadium in Ahmedabad, with performances by Ricky Martin and Falguni Pathak.",Fake,0.599510095384318,2026-03-07 22:40:29.749383,1
+"A viral post circulating on Facebook falsely claims that Walmart, in response to the coronavirus pandemic, has instituted a “staggered shopping schedule” that allows only certain age groups on specific days. The store has started a weekly “senior shopping event,” but no other restrictions based on age.",Fake,0.8417140231111226,2026-03-07 22:42:58.258570,0
+India increases wheat production following strong monsoon season,Fake,0.7281725595758288,2026-03-09 21:29:14.154287,1
+Brazil remains the world’s largest soybean exporter,Fake,0.6575967614626436,2026-03-09 21:30:31.631157,1
+European Space Agency launches satellite to monitor climate change,Fake,0.5857177084623819,2026-03-09 21:31:57.570555,1
+India loses ICC T20 World Cup title after dramatic final match,Fake,0.8539301373871229,2026-03-09 21:33:39.050612,0
+Secret global government formed by world leaders to control all countries,Fake,0.7462355819040494,2026-03-09 21:37:55.628358,0
+A smartphone app can read people’s thoughts using artificial intelligence,Fake,0.9795139256985835,2026-03-09 21:40:55.843690
+Genetically modified crops can instantly change human DNA,Fake,0.8510906978334942,2026-03-09 21:42:53.077958,0
+Major banks secretly plan to erase all personal savings accounts,Fake,0.6985018946929884,2026-03-09 21:46:05.227329,0
+Income tax Department carries out nation-wide verification exercise on restaurants suppressing turnover,Fake,0.7384898382294622,2026-03-09 21:48:46.142929,1
+
+India loses ICC T20 World Cup title after dramatic final match,Fake,0.8500188375298572,2026-03-09 22:20:01.081466
+India offers condolences over Khamenei's killing; Foreign Secretary Vikram Misri visits Iran Embassy,Fake,0.5018293258788928,2026-03-09 22:21:15.639147
+" Rapper Balen Shah’s party wins big in Nepal, defeating established leaders like KP Sharma Oli and shifting the political landscape towards a new generation.",Fake,0.708857388207658,2026-03-09 22:21:54.653250
+Secret global government formed by world leaders to control all countries,Fake,0.7736941304039983,2026-03-09 22:22:51.383078
+India offers condolences over Khamenei's killing; Foreign Secretary Vikram Misri visits Iran Embassy,Fake,0.5018293258788928,2026-03-09 22:23:31.139336
+Income tax Department carries out nation-wide verification exercise on restaurants suppressing turnover,Fake,0.6436977391290546,2026-03-09 22:24:15.930600
+"Iran has warned Trump after he threatened severe consequences if Tehran disrupts oil shipments through the Strait of Hormuz. Trump also claimed the country’s new Supreme Leader, Mojtaba Khamenei, would not be able to “live in peace.”",Fake,0.6943346882092689,2026-03-10 22:03:39.607854,1
