@@ -1,4 +1,4 @@
-# news-authenticity-system
+# News-Authenticity-Detection-System
 📘 SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
 News Authenticity Detection System (Semi-Supervised Learning Based)
 ________________________________________
